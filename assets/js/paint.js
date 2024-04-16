@@ -1,5 +1,5 @@
 function configureListeners() {
-    let images = document.getElementByTagName('img');
+    var images = document.getElementsByTagName('img');
 
      for (var i = 0; i < images.length; i++) {        
         document.getElementById(images[i].id).addEventListener('mouseover', addOpacity, false)
